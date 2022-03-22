@@ -53,7 +53,9 @@ First, we will build and test a circuit using the temperature sensor.
     | G | GND | GND |
     | D1 | GPIO5 | Data |
 
-   ![pinout](assets/wemos-d1-mini-pinout.png)
+   ![sensor pinout](assets/dht11_dht22_pinout.png)
+
+   ![d1 mini pinout](assets/wemos-d1-mini-pinout.png)
 
 2. Make sure the sensor is wired the correct way round!
 
