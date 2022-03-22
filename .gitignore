@@ -1,3 +1,4 @@
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,6 +16,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!micropython/lib/
 lib64/
 parts/
 sdist/
@@ -127,3 +129,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### Python Patch ###
+.venv/
+
+### VisualStudioCode ###
+.vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+!.vscode/arduino.json
+!.vscode/c_cpp_properties.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/python,visualstudiocode
