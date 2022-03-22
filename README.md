@@ -41,9 +41,9 @@ First, we will build and test a circuit using the temperature sensor.
 
 1. Wire up the components as shown in the diagrams. If the sensor is not on a breakout board, the data line needs to be pulled high using a 10k ohm resistor. If the sensor is on a breakout board, the pull-up resistor is probably also integrated on the breakout board.
    
-   ![circuit diagram](assets/esp8266-dht11-sensor-circuit-diagram_schem.svg)
+   ![circuit diagram](assets/esp8266-dht11-sensor-circuit-diagram_schem.png)
    <br />
-   ![breadboard diagram](assets/esp8266-dht11-sensor-circuit-diagram_bb.svg)
+   ![breadboard diagram](assets/esp8266-dht11-sensor-circuit-diagram_bb.png)
 
    #### Default Pin Wiring
 
