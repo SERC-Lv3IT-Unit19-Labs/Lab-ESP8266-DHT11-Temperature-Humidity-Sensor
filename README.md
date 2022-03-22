@@ -57,11 +57,13 @@ First, we will build and test a circuit using the temperature sensor.
 
 2. Make sure the sensor is wired the correct way round!
 
-3. - If using Arduino IDE, open the [dht11-temperature-humidity-sensor](arduino/dht11-temperature-humidity-sensor/dht11-temperature-humidity-sensor.ino) sketch and run it.
+3. **Make sure the sensor is wired the correct way round!** Pins on the breakout board maybe reversed from those in the diagram. Check the labels.
+
+4. - If using Arduino IDE, open the [dht11-temperature-humidity-sensor](arduino/dht11-temperature-humidity-sensor/dht11-temperature-humidity-sensor.ino) sketch and run it.
 
    - If using micropython (i.e. with Thonny), run the [read_sensor.py](micropython/read_sensor.py) script.
 
-4. Open the serial monitor / REPL and check that the sensor is working correctly.
+5. Open the serial monitor / REPL and check that the sensor is working correctly.
 
 Q1. What cable carries the data?
 
